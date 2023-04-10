@@ -16,6 +16,12 @@ export const zhSidebar = sidebar({
       prefix: "posts/",
       children: "structure",
     },
+    {
+      text: "资源",
+      icon: "install",
+      prefix: "resources/",
+      children: "structure",
+    },
     "intro",
     "slides",
   ],

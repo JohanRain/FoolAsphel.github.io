@@ -3,10 +3,10 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: /logo.svg
-heroText: 你博客的名称
+heroImage: /夜间.svg
+heroText: 游者鞅掌 以观无妄
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 浮游不知所求 猖狂不知所往
 projects:
   - icon: project
     name: 项目名称
@@ -14,9 +14,9 @@ projects:
     link: https://你的项目链接
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: ChatGPT
+    desc: 打开新世界
+    link: https://izudia.top
 
   - icon: book
     name: 书籍名称
@@ -28,17 +28,7 @@ projects:
     desc: 文章详细描述
     link: https://你的文章链接
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
-
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
-
-footer: 自定义你的页脚文字
+footer: 游者
 ---
 
 这是一个博客主页的案例。
