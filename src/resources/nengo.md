@@ -18,6 +18,43 @@ Nengo Brain Maker 是一个用于构建、测试和部署神经网络的 Python 
 
 Nengo Brain Maker 是一个用于构建、测试和部署神经网络的 Python 包。
 
-## 标题 3
+![激发图片](https://i.postimg.cc/g0FVvvWm/image.png)
 
-这里是内容。
+@slidestart
+
+## 幻灯片 1
+
+一个有文字和 [链接](https://mrhope.site) 的段落
+这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字
+
+---
+
+## 幻灯片 2
+
+- 项目 1
+- 项目 2
+
+---
+
+## 幻灯片 3.1
+
+```python
+print("Hello, world")
+```
+
+--
+
+```python
+for i in range(1, 10):
+  print(i)
+```
+
+--
+
+## 幻灯片 3.2
+
+$$
+J(\theta_0,\theta_1) = \sum_{i=0}
+$$
+
+@slideend
