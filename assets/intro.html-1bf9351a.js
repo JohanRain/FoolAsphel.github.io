@@ -1,0 +1,1 @@
+import{_ as e,W as t,X as o,$ as n}from"./framework-f7b8cd17.js";const _={},c=n("p",null,"将你的个人介绍和档案放置在此处。",-1),s=[c];function r(a,l){return t(),o("div",null,s)}const d=e(_,[["render",r],["__file","intro.html.vue"]]);export{d as default};
