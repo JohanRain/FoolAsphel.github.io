@@ -76,7 +76,6 @@ export default hopeTheme({
         intro: "/about/intro",
       },
 
-      // page meta
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
       },
@@ -101,7 +100,6 @@ export default hopeTheme({
       categoryId: "DIC_kwDOJUgFf84CVpTc",
     },
 
-    // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
@@ -144,6 +142,19 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
+    components: {
+      components: [
+        "AudioPlayer",
+        "Badge",
+        "BiliBili",
+        "CodePen",
+        "PDF",
+        "Replit",
+        "StackBlitz",
+        "VideoPlayer",
+        "YouTube",
+      ],
+    },
     // uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",
