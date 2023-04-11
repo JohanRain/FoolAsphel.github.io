@@ -20,7 +20,11 @@ export default hopeTheme({
 
   repoDisplay: false,
 
-  docsDir: "docs",
+  docsRepo: "FoolAsphel/FoolAsphel.github.io",
+
+  docsBranch: "master",
+
+  docsDir: "src",
 
   blog: {
     avatar: "/Victoria.jpg",
