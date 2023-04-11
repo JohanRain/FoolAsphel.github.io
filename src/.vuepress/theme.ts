@@ -5,6 +5,8 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 export default hopeTheme({
   hostname: "https://blog.izudia.top",
 
+  favicon: "/夜间.svg",
+
   author: {
     name: "Izudia",
     url: "https://blog.izudia.top",
@@ -12,26 +14,29 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/夜间.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "FoolAsphel/FoolAsphel.github.io",
+
+  repoDisplay: false,
 
   docsDir: "docs",
 
   blog: {
+    avatar: "/Victoria.jpg",
     medias: {
-      BiliBili: "https://example.com",
-      Discord: "https://example.com",
-      GitHub: "https://example.com",
-      Steam: "https://example.com",
-      Zhihu: "https://example.com",
+      BiliBili: "https://bilibili.com",
+      Discord: "https://discord.com",
+      GitHub: "https://github.com",
+      Steam: "https://steam.com",
+      Zhihu: "https://zhihu.com",
       Rss: "https://example.com",
-      Email: "mailto:info@example.com",
+      Email: "mailto:foolasphel@outlook.com",
     },
   },
 
   locales: {
-    "/": {
+    "/en/": {
       // navbar
       navbar: enNavbar,
 
@@ -44,7 +49,7 @@ export default hopeTheme({
 
       blog: {
         description: "A FrontEnd programmer",
-        intro: "/intro.html",
+        intro: "/en/intro.html",
       },
 
       metaLocales: {
@@ -55,20 +60,20 @@ export default hopeTheme({
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "游者",
 
       displayFooter: true,
 
       blog: {
         description: "医工交叉 软硬结合",
-        intro: "/zh/intro.html",
+        intro: "/about/intro",
       },
 
       // page meta
@@ -80,8 +85,8 @@ export default hopeTheme({
 
   encrypt: {
     config: {
+      "/en/demo/encrypt.html": ["1234"],
       "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
     },
   },
 
