@@ -8,7 +8,7 @@ tag:
   - 书籍
 star: true
 sticky: true
-auther: 宇称轩辕
+author: 宇称轩辕
 ---
 
 这是How to build a brain的第一章
