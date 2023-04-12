@@ -14,13 +14,11 @@ author: 宇称轩辕
 这是How to build a brain的第一章
 <!-- more -->
 
-# How to build a brain: a neural architecture for biological cognition Chapter1
 
 Topic: SNN
 Where: Oxford University Press
 Who: Eliasmith
 
-# Chapter 1
 
 ## 1.3 Where We Are
 
