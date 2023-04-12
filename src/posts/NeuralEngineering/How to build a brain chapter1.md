@@ -1,5 +1,5 @@
 ---
-title: How to build a brain: a neural architecture for biological cognition Chapter1
+title: How to build a brain Chapter1
 icon: software
 date: 2023-04-09
 category:
