@@ -8,11 +8,12 @@ tag:
   - 书籍
 star: true
 sticky: true
-author: 宇称轩辕
+auther: 宇称轩辕
 ---
 
 这是How to build a brain的第一章
 <!-- more -->
+
 # How to build a brain: a neural architecture for biological cognition Chapter1
 
 Topic: SNN
