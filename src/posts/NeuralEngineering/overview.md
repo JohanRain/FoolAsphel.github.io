@@ -1,6 +1,5 @@
 ---
 title: 神经工程框架技术综述
-icon: software
 date: 2023-04-09
 category:
   - 神经工程
@@ -44,7 +43,7 @@ $$a_i = G{({\alpha_i}{\mathbf{e}_i}\cdot{\mathbf{x}} + {b_i})} {\tag{1}}$$
 
 $$\hat{\mathbf{x}} = \sum{a_i}{\mathbf{d}_i}$$
 
-这句话的意思是：找到这组解码权重 $\mathbf{d}_i$ 是一个最小二乘问题，因为我们想找到最小化 $x$ 和其估计值之间差异的权重集。这是一个标准的代数问题，可以通过以下方式解决，其中总和是在可能的 $\mathbf{x}$ 值的随机抽样上进行的。
+这句话的意思是：找到这组解码权重 $\mathbf{d}_i$ 是一个最小二乘问题，因为我们想找到最小化 $\mathbf{x}$ 和其估计值之间差异的权重集。这是一个标准的代数问题，可以通过以下方式解决，其中总和是在可能的 $\mathbf{x}$ 值的随机抽样上进行的。
 
 $$\mathbf{d}=\Gamma^{-1} \Upsilon \quad \Gamma_{i j}=\sum_{\mathbf{x}} a_{i} a_{j} \quad \Upsilon_{j}=\sum_{\mathbf{x}} a_{j} \mathbf{x}$$
 

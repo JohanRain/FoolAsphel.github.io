@@ -8,7 +8,16 @@ export const zhSidebar = sidebar({
       icon: "note",
       prefix: "posts/",
       link: "posts/",
-      children: "structure",
+      children: [
+        {
+          text: "神经工程",
+          icon: "process",
+          link: "NeuralEngineering/",
+          prefix: "NeuralEngineering/",
+          collapsible: true,
+          children: ["Overview", "HowToBuildABrain"],
+        },
+      ],
     },
     {
       text: "资源",
@@ -25,6 +34,13 @@ export const zhSidebar = sidebar({
       text: "个人介绍",
       icon: "people",
       link: "intro",
+    },
+  ],
+  "/posts/NeuralEngineering/HowToBuildABrain/": [
+    {
+      text: "How To Build A Brain",
+      icon: "article",
+      children: "structure",
     },
   ],
 });

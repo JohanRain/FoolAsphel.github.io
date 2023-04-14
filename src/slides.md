@@ -1,6 +1,8 @@
 ---
 title: 幻灯片页
 icon: slides
+article: false
+index: false
 layout: Slide
 ---
 

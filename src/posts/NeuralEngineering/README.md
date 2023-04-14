@@ -9,4 +9,5 @@ category:
 
 ## 目录
 
-- [神经网络框架技术综述](overview)
+- [神经网络框架技术综述](Overview.md)
+- [How to build a brain](HowToBuildABrain/)
