@@ -11,7 +11,7 @@ sticky: true
 author: 宇称轩辕
 ---
 
-这是 How to build a brain 的第一章
+这是 How To Build A Brain 的第一章
 
 <!-- more -->
 

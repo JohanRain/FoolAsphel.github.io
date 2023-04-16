@@ -41,11 +41,11 @@ $$a_i = G{({\alpha_i}{\mathbf{e}_i}\cdot{\mathbf{x}} + {b_i})} {\tag{1}}$$
 
 虽然方程 1 允许我们将向量 $\mathbf{x}$ 转换为神经活动 $a_i$，但反过来也很重要。也就是说，给定一些神经活动 $a_i$，$\mathbf{x}$ 代表什么值？其中最简单的方法是找到一个线性解码器 $\mathbf{d}_i$。这是一组权重，负责将活动映射回 $\mathbf{x}$ 的估计值，如下所示：
 
-$$\hat{\mathbf{x}} = \sum{a_i}{\mathbf{d}_i}$$
+$$\hat{\mathbf{x}} = \sum{a_i}{\mathbf{d}_i} {\tag{2}}$$
 
 这句话的意思是：找到这组解码权重 $\mathbf{d}_i$ 是一个最小二乘问题，因为我们想找到最小化 $\mathbf{x}$ 和其估计值之间差异的权重集。这是一个标准的代数问题，可以通过以下方式解决，其中总和是在可能的 $\mathbf{x}$ 值的随机抽样上进行的。
 
-$$\mathbf{d}=\Gamma^{-1} \Upsilon \quad \Gamma_{i j}=\sum_{\mathbf{x}} a_{i} a_{j} \quad \Upsilon_{j}=\sum_{\mathbf{x}} a_{j} \mathbf{x}$$
+$$\mathbf{d}=\Gamma^{-1} \Upsilon \quad \Gamma_{i j}=\sum_{\mathbf{x}} a_{i} a_{j} \quad \Upsilon_{j}=\sum_{\mathbf{x}} a_{j} \mathbf{x} {\tag{3}}$$
 
 有了这个解码器，你就可以确定一组神经元代表某种值的准确程度，并对该组神经元的尖峰活动提供更高层次的解释。更重要的是，这些解码器还允许您直接求解神经连接权重，该权重将计算一些所需的变换，如下所示。
 
@@ -55,3 +55,7 @@ $$\mathbf{d}=\Gamma^{-1} \Upsilon \quad \Gamma_{i j}=\sum_{\mathbf{x}} a_{i} a_{
 $f(\mathbf{x})=\mathbf{x}$。
 
 重要的是，你不能简单地将 A 中的第一个神经元连接到 B 中的第一个神经元，以此类推。这两组中不仅可能有不同数量的神经元，具有不同的 $\alpha_i$ 和 $b_i$ 值，而且非线性神经元 $G$ 使这种天真的方法非常不准确。
+
+为了创建一个准确并且稳固的连接，首先假定我们拥有一个完美理想的线性神经元中间组，并且我们能将他们中的每一个维度表示出来。我们会注意到，由于方程 2，$\mathbf{d}$是在给定 A 的活动中计算 x 所需要的一组连接权重。此外，使用组 B（$\mathbf{e}_j$）的编码器值作为 $\mathbf{x}$ 表示的连接权重正是计算方程 1 中点积所需要的，这反过来可以用 B 来表示 $\mathbf{x}$。这个过程会在图 2a 中展示。
+
+当然，真正的大脑没有这些理想化的中间神经元。然而，这是完全不需要的。你可以删除他们并使用通过将两组权重相乘所得的连接权重直接连接 A 和 B（如图 2b）。也就是说，将信息从 A 传递到 B 的最佳权重可以简化为 $\omega_{ij}=\mathbf{d}_{i}\cdot{\mathbf{e}_j}$。
