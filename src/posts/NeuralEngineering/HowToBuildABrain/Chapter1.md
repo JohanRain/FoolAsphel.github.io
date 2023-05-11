@@ -6,8 +6,6 @@ category:
   - 神经工程
 tag:
   - 书籍
-star: true
-sticky: true
 author: 宇称轩辕
 ---
 
