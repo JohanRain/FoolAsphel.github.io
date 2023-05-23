@@ -8,3 +8,4 @@ icon: note
 ## 目录
 
 - [神经工程](NeuralEngineering/)
+- [算法](Algorithm/)

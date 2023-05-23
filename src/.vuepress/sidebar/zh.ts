@@ -17,6 +17,14 @@ export const zhSidebar = sidebar({
           collapsible: true,
           children: ["Overview", "HowToBuildABrain"],
         },
+        {
+          text: "算法",
+          icon: "process",
+          link: "Algorithm/",
+          prefix: "Algorithm/",
+          collapsible: true,
+          children: ["Advance", "Other"],
+        },
       ],
     },
     {
