@@ -1,1 +1,0 @@
-import{_ as e,Y as t,Z as o,a1 as n}from"./framework-c4f4fa2e.js";const _={},c=n("p",null,"将你的个人介绍和档案放置在此处。",-1),s=[c];function r(a,l){return t(),o("div",null,s)}const d=e(_,[["render",r],["__file","intro.html.vue"]]);export{d as default};
