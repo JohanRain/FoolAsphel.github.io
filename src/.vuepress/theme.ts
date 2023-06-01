@@ -52,7 +52,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "A FrontEnd programmer",
+        description: "A programmer",
         intro: "/en/intro.html",
       },
 
