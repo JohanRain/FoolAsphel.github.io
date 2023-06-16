@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as o,d as c}from"./app-c920307e.js";const n={},r=c("p",null,"将你的个人介绍和档案放置在此处。",-1),_=[r];function s(a,l){return t(),o("div",null,_)}const f=e(n,[["render",s],["__file","intro.html.vue"]]);export{f as default};
