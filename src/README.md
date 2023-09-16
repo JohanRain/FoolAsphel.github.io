@@ -16,7 +16,7 @@ projects:
   - icon: link
     name: ChatGPT
     desc: 打开新世界
-    link: https://izudia.top
+    link: https://chat.izudia.top
 
   - icon: book
     name: 书籍名称
