@@ -123,7 +123,7 @@ export default hopeTheme({
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: {
+      revealJs: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
       stylize: [
@@ -147,16 +147,30 @@ export default hopeTheme({
     },
 
     components: {
+      rootComponents: {
+        backToTop: true,
+        notice: [
+          {
+            path: "/",
+            title: "Notice",
+            content: "Notice Content"
+          }
+        ],
+      },
       components: [
-        "AudioPlayer",
-        "Badge",
-        "BiliBili",
         "CodePen",
-        "PDF",
         "Replit",
         "StackBlitz",
-        "VideoPlayer",
-        "YouTube",
+        "SiteInfo",
+        "VPBanner",
+        "VPCard",
+        "ArtPlayer",
+        "BiliBili",
+        "PDF",
+        "Badge",
+        "VidStack",
+        "FontIcon",
+        "Share",
       ],
     },
     // uncomment these if you want a PWA
