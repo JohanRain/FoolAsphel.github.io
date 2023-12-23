@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as t,c as o,b as r}from"./app-_Us5wM1p.js";const c={},_=r("p",null,"这是 How To Build A Brain 的第二章",-1),n=[_];function s(a,l){return t(),o("div",null,n)}const f=e(c,[["render",s],["__file","Chapter2.html.vue"]]);export{f as default};
